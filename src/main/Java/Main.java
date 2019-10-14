@@ -35,7 +35,7 @@ public class Main
                     i++;
                 }
             }
-            connection.unsubscribe(new String[] {"testTopic"});
+            connection.unsubscribe(new String[] {"/ESP/DOOR"});
             connection.disconnect();
         }
         catch (Exception e)
